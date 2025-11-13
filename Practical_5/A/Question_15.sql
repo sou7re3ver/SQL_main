@@ -1,0 +1,7 @@
+UPDATE ACCOUNT
+SET BALANCE = BALANCE * (
+    CASE 
+        WHEN BALANCE > 80000 THEN 1.06
+        ELSE 1.05
+    END
+);
