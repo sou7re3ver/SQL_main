@@ -1,0 +1,2 @@
+SELECT LOWER('HELLO ITER') AS lowercase
+FROM dual;

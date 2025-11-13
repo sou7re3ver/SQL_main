@@ -1,0 +1,3 @@
+SELECT *
+FROM faculty_info
+WHERE salary BETWEEN 60000 AND 80000;
